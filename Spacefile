@@ -1,0 +1,9 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: nkun-portfolio
+    src: ./
+    engine: nuxt
+    primary: true
+    public: true
+    dev: pnpm dev -o

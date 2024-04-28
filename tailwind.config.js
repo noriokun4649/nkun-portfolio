@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      header: ["caveat"],
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
