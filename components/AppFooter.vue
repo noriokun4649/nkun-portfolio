@@ -8,7 +8,7 @@
           <NuxtImg
             class="rounded-full"
             format="webp"
-            src="https://avatars.githubusercontent.com/u/17977166"
+            src="../public/user-icon.jpg"
             alt="Profile icon"
           />
         </div>

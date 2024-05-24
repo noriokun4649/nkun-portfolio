@@ -21,6 +21,6 @@
 const profile = {
   name: "noriokun4649",
   role: "肉の塊が食べたい今日この頃",
-  imageUrl: "https://avatars.githubusercontent.com/u/17977166",
+  imageUrl: "../public/user-icon.jpg",
 }
 </script>
