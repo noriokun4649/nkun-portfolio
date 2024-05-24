@@ -8,8 +8,8 @@
           <NuxtImg
             class="rounded-full border"
             format="webp"
-            height="200px"
-            width="200px"
+            height="100px"
+            width="100px"
             src="../public/user-icon.jpg"
             alt="Profile icon"
           />
