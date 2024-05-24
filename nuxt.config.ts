@@ -19,6 +19,9 @@ export default defineNuxtConfig({
   ui: {
     icons: ['simple-icons']
   },
+  purgeCSS: {
+    whitelist: ['dark-mode', 'system', 'light-mode'],
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
