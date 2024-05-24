@@ -60,7 +60,8 @@ const links = [
             class="size-8"
             :name="isDark ? 'i-heroicons-sun-solid' : 'i-heroicons-moon-solid'"
             variant="ghost"
-            aria-description="Theme"
+            role="button"
+            aria-label="Theme"
             @click="isDark = !isDark"
           />
         </ClientOnly>
