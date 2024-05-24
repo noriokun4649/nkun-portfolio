@@ -6,8 +6,10 @@
       <nav class="text-left">
         <div class="avatar w-24">
           <NuxtImg
-            class="rounded-full"
+            class="rounded-full border"
             format="webp"
+            height="200px"
+            width="200px"
             src="../public/user-icon.jpg"
             alt="Profile icon"
           />
