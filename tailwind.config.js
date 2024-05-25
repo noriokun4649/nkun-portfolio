@@ -9,7 +9,11 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        wqhd: "2450px",
+      },
+    },
     fontFamily: {
       header: ["caveat"],
     },

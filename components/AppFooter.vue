@@ -25,7 +25,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <UIcon class="size-12" name="i-simple-icons-x"/>
+            <UIcon class="size-12" name="i-simple-icons-x" />
           </a>
           <a
             href="https://github.com/noriokun4649"
