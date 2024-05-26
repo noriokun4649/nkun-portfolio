@@ -28,7 +28,7 @@ export default defineNuxtConfig({
     icons: ["simple-icons"],
   },
   purgecss: {
-    whitelist: ["data-theme"],
+    whitelist: ["data-theme", "img"],
   },
   postcss: {
     plugins: {
@@ -51,5 +51,10 @@ export default defineNuxtConfig({
     serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN,
     apiKey: process.env.MICROCMS_API_KEY,
     target: process.env.NODE_ENV === "production" ? "server" : "all",
+  },
+  image: {
+    imgix: {
+      baseURL: ''
+    }
   },
 })
