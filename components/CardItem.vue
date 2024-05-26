@@ -1,7 +1,14 @@
 <template>
   <div class="card grid-item min-w-72 max-w-sm shadow-xl dark:shadow-gray-700">
     <figure v-if="work?.image">
-      <img :src="work?.image.url + '?q=50&fit=fill&fill=blur&w=672&h=378'" alt="artwork" />
+      <NuxtImg
+        class="rounded-full border"
+        format="webp"
+        height="378px"
+        width="672px"
+        :src="work?.image.url + '?fm=webp&q=50&fit=fill&fill=blur&w=672&h=378'" 
+        alt="artwork"
+      />
     </figure>
     <div class="card-body">
       <div class="flex flex-row gap-4">
