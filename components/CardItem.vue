@@ -22,10 +22,11 @@
         <div class="card-actions justify-between align-top mt-1 items-end">
           <div class="flex flex-row gap-4">
             <a
+              v-if=work?.link
               :href="work?.link"
               target="_blank"
               rel="noopener noreferrer"
-              class="btn btn-outline btn-sm"
+              class="btn btn-outline"
               >{{ work?.linkname }}</a
             >
           </div>
