@@ -12,6 +12,7 @@
             width="100px"
             src="../public/user-icon.jpg"
             alt="Profile icon"
+            loading="lazy"
           />
         </div>
         <p class="text-xl font-header">nkun.dev</p>

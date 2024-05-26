@@ -3,7 +3,7 @@
     <div class="flex items-center gap-x-6">
       <NuxtImg
         class="rounded-full border"
-        height="200px"
+        height="200px"                  
         width="200px"
         :src="profile.imageUrl"
         format="webp"
