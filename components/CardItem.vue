@@ -1,5 +1,5 @@
 <template>
-  <div class="card glass grid-item min-w-72 max-w-sm">
+  <div class="card grid-item min-w-72 max-w-sm shadow-xl dark:shadow-gray-700">
     <figure v-if="work?.image">
       <img :src="work?.image.url + '?q=50&fit=fill&fill=blur&w=672&h=378'" alt="artwork" />
     </figure>
