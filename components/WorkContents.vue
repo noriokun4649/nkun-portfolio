@@ -14,7 +14,7 @@ import type { Work } from "../assets/ts/Types"
 
 const { data: works } = await useMicroCMSGetList<Work>({
   endpoint: "work",
-  queries: { limit: 30, orders: "createdAt" },
+  queries: { limit: 30, orders: "system:default" },
 
 })
 </script>
