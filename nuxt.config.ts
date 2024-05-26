@@ -1,7 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxt/eslint", "@nuxt/ui", "@nuxtjs/google-fonts", "@nuxt/image", "@nuxtjs/robots", "nuxt-purgecss"],//
+  modules: [
+    "@nuxt/eslint",
+    "@nuxt/ui",
+    "@nuxtjs/google-fonts",
+    "@nuxt/image",
+    "@nuxtjs/robots",
+    "nuxt-purgecss",
+    "nuxt-microcms-module",
+  ],
   css: ["~/assets/css/main.css"],
   app: {
     head: {
@@ -17,10 +25,10 @@ export default defineNuxtConfig({
     },
   },
   ui: {
-    icons: ['simple-icons']
+    icons: ["simple-icons"],
   },
   purgecss: {
-    whitelist: ['data-theme'],
+    whitelist: ["data-theme"],
   },
   postcss: {
     plugins: {
@@ -38,5 +46,10 @@ export default defineNuxtConfig({
     families: {
       Caveat: true,
     },
+  },
+  microCMS: {
+    serviceDomain: process.env.MICROCMS_SERVICE_DOMAIN,
+    apiKey: process.env.MICROCMS_API_KEY,
+    target: process.env.NODE_ENV === "production" ? "server" : "all",
   },
 })

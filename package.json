@@ -23,6 +23,7 @@
     "@nuxtjs/robots": "^3.0.0",
     "daisyui": "^4.10.2",
     "nuxt": "^3.11.2",
+    "nuxt-microcms-module": "^3.0.2",
     "nuxt-purgecss": "^2.0.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
