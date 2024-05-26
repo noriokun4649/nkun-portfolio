@@ -36,7 +36,7 @@
             <UIcon class="size-12" name="i-simple-icons-github" size="48px" />
           </a>
           <a
-            href="https://discord.gg/noriokun4649#6388"
+            href="https://discord.com/invite/ZFydKhq4"
             aria-label="Discord link"
             target="_blank"
             rel="noopener noreferrer"
