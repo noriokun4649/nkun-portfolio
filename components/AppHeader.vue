@@ -27,7 +27,7 @@ const links = [
 ]
 </script>
 <template>
-  <header>
+  <header class="z-50">
     <div class="navbar border-b-2">
       <div class="flex-1">
         <a class="btn btn-ghost text-2xl font-header" href="/">nkun.dev</a>
