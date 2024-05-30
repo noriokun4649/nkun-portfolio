@@ -8,7 +8,7 @@
         height="191px"
         width="384px"
         fit="contain"
-        :modifiers="{fill: 'blur' }"
+        :modifiers="{ fill: 'blur' }"
         :src="work?.image.url"
         alt="artwork"
         loading="lazy"
@@ -28,12 +28,12 @@
       <h2 class="card-title">{{ work?.title }}</h2>
       <p class="whitespace-pre-wrap">
         {{ work?.description }}
-    </p>
+      </p>
       <div>
         <div class="card-actions justify-between align-top mt-1 items-end">
           <div class="flex flex-row gap-4">
             <a
-              v-if=work?.link
+              v-if="work?.link"
               :href="work?.link"
               target="_blank"
               rel="noopener noreferrer"

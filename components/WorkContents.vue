@@ -6,7 +6,7 @@
       </div>
     </div>
   </div>
-  <NoContents v-else/>
+  <NoContents v-else />
 </template>
 
 <script setup lang="ts">
@@ -15,6 +15,5 @@ import type { Work } from "../assets/ts/Types"
 const { data: works } = await useMicroCMSGetList<Work>({
   endpoint: "work",
   queries: { limit: 30, orders: "system:default" },
-
 })
 </script>

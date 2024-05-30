@@ -54,7 +54,7 @@ export default defineNuxtConfig({
   },
   image: {
     imgix: {
-      baseURL: ''
-    }
+      baseURL: "",
+    },
   },
 })
