@@ -1,8 +1,8 @@
 <template>
-  <div v-if="works?.contents.length" class="flex justify-center">
+  <div v-if="works?.contents.length" class="flex justify-center items-center flex-grow">
     <div class="grid md:grid-cols-2 xl:grid-cols-4 wqhd:grid-cols-8 gap-10 m-10">
       <div v-for="work in works?.contents" :key="work.id">
-        <CardItem :work="work" />
+        <WorkCardItem :work="work" />
       </div>
     </div>
   </div>
