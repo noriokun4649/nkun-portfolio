@@ -15,7 +15,7 @@
     "format:fix": "prettier --write ."
   },
   "dependencies": {
-    "@iconify-json/simple-icons": "^1.1.101",
+    "@iconify-json/simple-icons": "^1.1.102",
     "@nuxt/eslint": "^0.3.6",
     "@nuxt/image": "^1.6.0",
     "@nuxt/ui": "^2.15.2",

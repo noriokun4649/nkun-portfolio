@@ -9,3 +9,17 @@ export type Work = {
   date: string
   genre: string
 }
+
+export type Link = {
+  title: string
+  link: string
+  banner: MicroCMSImage
+  description: string
+}
+
+export type Contact = {
+  title: string
+  link: string
+  icon: string
+  image: MicroCMSImage
+}
