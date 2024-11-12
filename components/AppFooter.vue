@@ -21,7 +21,7 @@
         <header class="footer-title">Social</header>
         <div class="grid grid-flow-col gap-4">
           <a
-            href="https://twitter.com/noriokun_blog"
+            href="https://twitter.com/noriokun4649"
             aria-label="X link"
             target="_blank"
             rel="noopener noreferrer"
