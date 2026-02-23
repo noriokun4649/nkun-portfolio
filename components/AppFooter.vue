@@ -48,7 +48,7 @@
       </nav>
     </div>
     <aside>
-      <p>© 2024 noriokun4649</p>
+      <p>© 2026 noriokun4649</p>
     </aside>
   </footer>
 </template>
