@@ -21,6 +21,6 @@
 const profile = {
   name: "noriokun4649",
   role: "肉の塊が食べたい今日この頃",
-  imageUrl: "../public/user-icon.jpg",
+  imageUrl: "/user-icon.jpg",
 }
 </script>
