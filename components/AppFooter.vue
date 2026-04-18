@@ -10,7 +10,7 @@
             format="webp"
             height="100px"
             width="100px"
-            src="../public/user-icon.jpg"
+            src="/user-icon.jpg"
             alt="Profile icon"
             loading="lazy"
           />
