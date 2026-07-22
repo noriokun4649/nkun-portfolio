@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: "2026-07-22",
   devtools: { enabled: true },
   modules: [
     "@nuxt/eslint",
@@ -7,7 +8,6 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxt/image",
     "@nuxtjs/robots",
-    "nuxt-purgecss",
     "nuxt-microcms-module",
   ],
   css: ["~/assets/css/main.css"],
@@ -26,15 +26,6 @@ export default defineNuxtConfig({
   },
   ui: {
     icons: ["simple-icons"],
-  },
-  purgecss: {
-    whitelist: ["data-theme", "img"],
-  },
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
   },
   typescript: {
     typeCheck: false,
