@@ -1,8 +1,8 @@
 <script setup></script>
 
 <template>
-  <footer class="footer footer-center p-5 bg-base-300 text-base-content rounded">
-    <div class="footer">
+  <footer class="footer md:footer-horizontal footer-center p-5 bg-base-300 text-base-content rounded">
+    <div class="footer md:footer-horizontal">
       <nav class="text-left">
         <div class="avatar w-24">
           <NuxtImg
@@ -15,7 +15,7 @@
             loading="lazy"
           />
         </div>
-        <p class="text-xl font-header">nkun.dev</p>
+        <p class="text-xl font-[caveat]">nkun.dev</p>
       </nav>
       <nav>
         <header class="footer-title">Social</header>

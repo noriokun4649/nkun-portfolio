@@ -1,3 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "daisyui";
+@import "@nuxt/ui";
+
+.dark {
+  --ui-bg: var(--ui-color-gray-200);
+}
